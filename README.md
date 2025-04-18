@@ -48,31 +48,6 @@ python main.py
   ```
 - You can adjust key parameters (chunk size, PCA components, number of clusters, graph depth) in `config.py`.
 
----
-
-## Project Structure
-
-```
-.
-├── main.py               # Entry point: orchestrates Task 1, 2 & 3
-├── requirements.txt      # Python dependencies
-├── README.md             # This file
-├── config.py             # Hyperparameters & API settings
-├── utils/
-│   ├── parsing.py        # Text → paragraph/chunk parsing logic
-│   ├── chunking.py       # Heuristic chunk grouping
-│   ├── embeddings.py     # Sentence‑BERT embedding wrappers
-│   ├── pca.py            # PCA & variance analysis
-│   ├── clustering.py     # KMeans + silhouette scoring
-│   └── graph_rag.py      # GraphRAG construction & query interface
-├── data/
-│   └── raw/              # Place your 10‑K text files here
-└── outputs/
-    ├── plots/            # PCA, silhouette, t‑SNE visualizations
-    └── results/          # QA answers & logs
-```
-
----
 
 ## What’s Next?
 
