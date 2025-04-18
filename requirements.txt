@@ -1,0 +1,11 @@
+datasets
+sentence-transformers
+numpy
+scikit-learn
+matplotlib
+tqdm
+pandas
+requests
+openai
+argparse
+llama-index
