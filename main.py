@@ -172,7 +172,7 @@ def task_2_3_pipeline():
         print("RAG result  :")
         print(json.dumps(result, indent=2))
         print("Graph RAG result  :")
-        print(json.dumps(result, indent=2))
+        print(json.dumps(result_graph, indent=2))
 
     logging.info("=== Task 2 & 3 Test Harness Completed ===")
 
